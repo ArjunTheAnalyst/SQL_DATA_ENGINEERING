@@ -33,7 +33,7 @@ End-to-end ETL pipeline that extracts CSVs from cloud storage, normalizes them i
 **Storage**: ☁️ Google Cloud Storage for source CSV files
 
 ## 📂 Repository Structure
-    03_Flat_to_DW_Mart_Build
+## Flat_to_DW_Mart_Build
     ├── Data Loading
     └── 00_load_data.sql              
         # Loads raw flat CSV data
@@ -114,3 +114,4 @@ All scripts are idempotent—they can be run multiple times with identical resul
 4. **Sequential Dependencies:** Clear step ordering
 
 5. **Error Prevention:** Foreign key constraints
+
