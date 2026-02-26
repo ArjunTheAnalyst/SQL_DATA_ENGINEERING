@@ -117,5 +117,5 @@ The data warehouse implements a star schema with company_dim, skills_dim, job_po
 2. Step-wise data validation
 3. Strict type safety
 4. Logical schema organization
-
 5. Clear error handling
+
