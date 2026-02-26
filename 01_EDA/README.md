@@ -1,6 +1,6 @@
 # Data Engineer Skills Analysis - EDA Project
 
-![EDA](../Resources\01_Project1_EDA.png)
+![EDA](../Resources/01_Project1_EDA.png)
 
 ## 📊 Project Overview
 This project performs exploratory data analysis on job postings for Data Engineer positions, focusing on remote work opportunities. The analysis identifies in-demand skills, salary trends, and optimal skill combinations for remote Data Engineer roles.
@@ -41,4 +41,5 @@ The analysis uses job postings data accessed through MotherDuck, with the follow
 2. Terraform - High demand + excellent salary
 3. Python/SQL - Highest demand + good salary
 4. AWS/Airflow/Spark - Strong demand + above-average salary
+
 5. Kafka/Snowflake - Growing demand + strong salary potential
