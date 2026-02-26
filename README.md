@@ -10,7 +10,7 @@ SQL-based analysis of remote Data Engineer jobs: skills demand & salary trends
 ETL from CSV → star schema → 4 analytical marts with idempotent operations	
 [View here](https://github.com/ArjunTheAnalyst/SQL_DATA_ENGINEERING/tree/main/02_DW_Mart_Build)
 
-3. Flat to DW Mart Build
+## 3. Flat to DW Mart Build
 Normalize flat data into dimension, fact, and bridge tables
 [View here](https://github.com/ArjunTheAnalyst/SQL_DATA_ENGINEERING/tree/main/03_Flat_to_DW_Mart_Build)
 
