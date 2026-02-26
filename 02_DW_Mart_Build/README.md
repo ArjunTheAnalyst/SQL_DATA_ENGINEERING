@@ -2,7 +2,7 @@
 ## 📋 Overview
 An end-to-end data engineering pipeline that transforms raw CSV files from Google Cloud Storage into a normalized star schema data warehouse, then builds analytical data marts with idempotent operations and incremental update patterns.
 
-![Pipeline](../Resources\02_Project2_Data_Pipeline.png)
+![Pipeline](../Resources/02_Project2_Data_Pipeline.png)
 
 ## Problem & Context
 Raw job posting data arrives as flat CSV files in Google Cloud Storage—not structured for analytical queries. <br> Analysts need to answer the following:
@@ -57,7 +57,7 @@ All scripts are idempotent—they can be run multiple times with identical resul
 
 ## Data Warehouse
 
-![DW](../Resources\03_Data_Warehouse.png)
+![DW](../Resources/03_Data_Warehouse.png)
 
 The data warehouse implements a star schema with company_dim, skills_dim, job_postings_fact, and skills_job_dim tables.
 
@@ -74,22 +74,22 @@ The data warehouse implements a star schema with company_dim, skills_dim, job_po
     1. Flat Mart (03_create_flat_mart.sql)
     Purpose: Denormalized table for quick ad-hoc queries
 
-![Flat_Mart](../Resources\04_Flat_Mart.png)
+![Flat_Mart](../Resources/04_Flat_Mart.png)
 
     2. Skills Mart (04_create_skills_mart.sql)
     Purpose: Time-series analysis of skill demand with additive measures
 
-![Skills_Mart](../Resources\05_Skills_Mart.png)
+![Skills_Mart](../Resources/05_Skills_Mart.png)
 
     3. Priority Mart (05-06_priority_mart.sql)
     Purpose: Track priority roles with incremental updates
 
-![Priority_Mart](../Resources\06_Priority_Mart.png)
+![Priority_Mart](../Resources/06_Priority_Mart.png)
 
     4. Company Mart (07_create_company_mart.sql)
     Purpose: Company hiring trends by role, location, and month
 
-![Company_Mart](../Resources\07_Company_Mart.png)
+![Company_Mart](../Resources/07_Company_Mart.png)
 
 ## 💻 Data Engineering Skills Demonstrated
 **ETL Pipeline Development**
@@ -117,4 +117,5 @@ The data warehouse implements a star schema with company_dim, skills_dim, job_po
 2. Step-wise data validation
 3. Strict type safety
 4. Logical schema organization
+
 5. Clear error handling
