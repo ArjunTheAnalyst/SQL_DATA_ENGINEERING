@@ -15,8 +15,8 @@ Normalize flat data into dimension, fact, and bridge tables
 [View here](https://github.com/ArjunTheAnalyst/SQL_DATA_ENGINEERING/tree/main/03_Flat_to_DW_Mart_Build)
 
 # 💻 Tech Stack
-Database: DuckDB, MotherDuck
-Language: SQL (DDL, DML, advanced)
+Database: DuckDB, MotherDuck <br>
+Language: SQL (DDL, DML, advanced) <br>
 Tools: VS Code, Git, GCS
 
 # 🔧 Skills Demonstrated
