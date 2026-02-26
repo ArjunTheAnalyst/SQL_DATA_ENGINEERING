@@ -3,15 +3,15 @@ A collection of end-to-end data engineering projects demonstrating ETL pipeline 
 
 # 🚀 Projects
 ## 1. Data Engineer Job Analysis	
-SQL-based analysis of remote Data Engineer jobs: skills demand & salary trends	
+SQL-based analysis of remote Data Engineer jobs: skills demand & salary trends <br>
 [View here](https://github.com/ArjunTheAnalyst/SQL_DATA_ENGINEERING/tree/main/01_EDA)
 
 ## 2. Data Warehouse & Mart Build	
-ETL from CSV → star schema → 4 analytical marts with idempotent operations	
+ETL from CSV → star schema → 4 analytical marts with idempotent operations <br>
 [View here](https://github.com/ArjunTheAnalyst/SQL_DATA_ENGINEERING/tree/main/02_DW_Mart_Build)
 
 ## 3. Flat to DW Mart Build
-Normalize flat data into dimension, fact, and bridge tables
+Normalize flat data into dimension, fact, and bridge tables <br>
 [View here](https://github.com/ArjunTheAnalyst/SQL_DATA_ENGINEERING/tree/main/03_Flat_to_DW_Mart_Build)
 
 # 💻 Tech Stack
