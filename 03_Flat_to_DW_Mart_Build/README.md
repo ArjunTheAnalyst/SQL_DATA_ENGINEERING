@@ -2,7 +2,7 @@
 
 An end-to-end data engineering pipeline that transforms flat CSV data into a normalized star schema warehouse with dimension, fact, and bridge tables.
 
-![Data_Warehouse](../Resources\03_Data_Warehouse.png)
+![Data_Warehouse](../Resources/03_Data_Warehouse.png)
 
 ## 🧩 Problem & Context
 Raw job posting data arrives as flat CSV files in Google Cloud Storage—not structured for analytical queries.
