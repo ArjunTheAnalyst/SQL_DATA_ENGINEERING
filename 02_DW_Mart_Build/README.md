@@ -46,7 +46,7 @@ Raw job posting data arrives as flat CSV files in Google Cloud Storage—not str
 
 ├── 06_update_priority_mart.sql <br> # Priority mart incremental update (MERGE)
 
-├── 07_create_company_mart.sql <br> # Company hiring mart (optional)
+├── 07_create_company_mart.sql <br> # Company hiring mart
 
 ├── build_dw_marts.sql <br> # Master SQL build script
 
@@ -118,4 +118,5 @@ The data warehouse implements a star schema with company_dim, skills_dim, job_po
 3. Strict type safety
 4. Logical schema organization
 5. Clear error handling
+
 
